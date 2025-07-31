@@ -1,10 +1,10 @@
-// Kolibri Sprachschule - Configuration
+// Kolibri Language Services - Configuration
 // Archivo de configuración para servicios bilingües (Español/Inglés)
 
 const CONFIG = {
     // Información de la empresa
     company: {
-        name: "Kolibri Sprachschule",
+        name: "Kolibri Language Services",
         owner: "Stephanny Julieth Pulido Nuñez",
         email: "stephanny.pulido.n@gmail.com",
         phone: "+49 1522 6997 488",
@@ -125,9 +125,9 @@ const CONFIG = {
     // Configuración de SEO
     seo: {
         title: {
-            es: "Kolibri Sprachschule - Clases de Español e Inglés en Alemania",
-            en: "Kolibri Sprachschule - Spanish and English Classes in Germany",
-            de: "Kolibri Sprachschule - Spanisch- und Englischkurse in Deutschland"
+            es: "Kolibri Language Services - Clases de Español e Inglés en Alemania",
+            en: "Kolibri Language Services - Spanish and English Classes in Germany",
+            de: "Kolibri Language Services - Spanisch- und Englischkurse in Deutschland"
         },
         description: {
             es: "Clases personalizadas de español e inglés con Stephanny Pulido. Servicios bilingües de enseñanza, ayuda de tareas y revisión de textos en Alemania.",

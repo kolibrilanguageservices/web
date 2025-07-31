@@ -1,8 +1,8 @@
-# Kolibri Sprachschule - Website
+# Kolibri Language Services - Website
 
-## 🌟 **Sitio web profesional para Kolibri Sprachschule**
+## 🌟 **Sitio web profesional para Kolibri Language Services**
 
-Sitio web moderno y elegante para la escuela de idiomas Kolibri Sprachschule, especializada en cursos de español e inglés en Berlín.
+Sitio web moderno y elegante para la escuela de idiomas Kolibri Language Services, especializada en cursos de español e inglés en Berlín.
 
 ## 🎨 **Características del Diseño**
 
@@ -72,7 +72,7 @@ Sitio web moderno y elegante para la escuela de idiomas Kolibri Sprachschule, es
 ## 📱 **Contacto Directo**
 
 ### **Información de Contacto**
-- **Email:** kolibrisprachschule@gmail.com
+- **Email:** kolibrilanguageservices@gmail.com
 - **WhatsApp:** +49 1522 6997 488
 - **Ubicación:** Berlín, Alemania
 - **Horarios:** Lun-Vie: 9AM-6PM
@@ -134,12 +134,12 @@ web_lg/
 
 ## 🤝 **Contribución**
 
-Este proyecto está diseñado específicamente para Kolibri Sprachschule. Para contribuciones o consultas, contactar directamente con Stephanny Pulido.
+Este proyecto está diseñado específicamente para Kolibri Language Services. Para contribuciones o consultas, contactar directamente con Stephanny Pulido.
 
 ## 📄 **Licencia**
 
-Proyecto privado para uso exclusivo de Kolibri Sprachschule.
+Proyecto privado para uso exclusivo de Kolibri Language Services.
 
 ---
 
-**Desarrollado con ❤️ para Kolibri Sprachschule** 
+**Desarrollado con ❤️ para Kolibri Language Services** 

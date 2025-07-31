@@ -1,8 +1,8 @@
-// Kolibri Sprachschule - Main JavaScript
+// Kolibri Language Services - Main JavaScript
 // Funcionalidad principal para el sitio web bilingüe
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Kolibri Sprachschule - Inicializando...');
+    console.log('Kolibri Language Services - Inicializando...');
     
     // Inicializar componentes
     initializeLanguageSwitcher();
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Establecer idioma predeterminado (Alemán) sin parámetros de URL
     setDefaultLanguage('de');
     
-    console.log('Kolibri Sprachschule - Página cargada correctamente');
+    console.log('Kolibri Language Services - Página cargada correctamente');
 });
 
 // Inicializar selector de idioma
@@ -206,7 +206,7 @@ function getServiceInfo(serviceId, lang = 'de') {
 }
 
 // Exportar funciones para uso global
-window.KolibriSprachschule = {
+window.KolibriLanguageServices = {
     changeLanguage: function(lang) {
         const button = document.querySelector(`[data-lang="${lang}"]`);
         if (button) button.click();

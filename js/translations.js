@@ -1,10 +1,10 @@
-// Kolibri Sprachschule - Translations
+// Kolibri Language Services - Translations
 // Archivo de traducciones para servicios bilingües (Español/Inglés)
 
 const translations = {
     de: {
         // Header
-        title: "Kolibri Sprachschule",
+        title: "Kolibri Language Services",
         subtitle: "Personalisierte Spanisch- und Englischkurse in Deutschland",
         
         // Profile Section
@@ -53,7 +53,7 @@ const translations = {
         },
         
         // About Section
-        about_title: "Warum Kolibri Sprachschule wählen?",
+        about_title: "Warum Kolibri Language Services wählen?",
         about_items: [
             {
                 icon: "🎯",
@@ -102,7 +102,7 @@ const translations = {
     
     es: {
         // Header
-        title: "Kolibri Sprachschule",
+        title: "Kolibri Language Services",
         subtitle: "Clases personalizadas de Español e Inglés en Alemania",
         
         // Profile Section
@@ -151,7 +151,7 @@ const translations = {
         },
         
         // About Section
-        about_title: "¿Por qué elegir Kolibri Sprachschule?",
+        about_title: "¿Por qué elegir Kolibri Language Services?",
         about_items: [
             {
                 icon: "🎯",
@@ -200,7 +200,7 @@ const translations = {
     
     en: {
         // Header
-        title: "Kolibri Sprachschule",
+        title: "Kolibri Language Services",
         subtitle: "Personalized Spanish and English classes in Germany",
         
         // Profile Section
@@ -249,7 +249,7 @@ const translations = {
         },
         
         // About Section
-        about_title: "Why choose Kolibri Sprachschule?",
+        about_title: "Why choose Kolibri Language Services?",
         about_items: [
             {
                 icon: "🎯",
