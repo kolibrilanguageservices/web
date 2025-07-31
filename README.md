@@ -1,148 +1,145 @@
-# Kolibri Sprachschule Website
+# Kolibri Sprachschule - Website
 
-Professional website for Kolibri Sprachschule - Spanish and English language courses in Berlin for businesses and individuals.
+## 🌟 **Sitio web profesional para Kolibri Sprachschule**
 
-## 🌍 Multi-language Support
+Sitio web moderno y elegante para la escuela de idiomas Kolibri Sprachschule, especializada en cursos de español e inglés en Berlín.
 
-- **German (DE)** - Default language
-- **English (EN)** 
-- **Spanish (ES)**
+## 🎨 **Características del Diseño**
 
-## 🚀 Features
+### **Paleta de Colores Profesional**
+- **Fondo principal:** `#F8F7F4` (off-white cálido)
+- **Texto oscuro:** `#333333` (charcoal)
+- **Acento sage:** `#8A9A5B` (verde sage)
+- **Acento azul:** `#607D8B` (azul polvoriento)
 
-- **Responsive Design** - Works on all devices
-- **Modern UI** - Clean, professional design
-- **Business Focus** - Tailored for corporate clients
-- **Direct Contact** - WhatsApp integration
-- **SEO Optimized** - Search engine friendly
+### **Tipografía Moderna**
+- **Fuente principal:** Montserrat (legible y amigable)
+- **Fuente secundaria:** Lato (consistencia)
+- **Jerarquía tipográfica:** Pesos 400, 500, 600, 700
 
-## 🛠️ Technologies Used
+### **Layout Asimétrico**
+- Grid asimétrico con espaciado generoso
+- Diseño basado en tarjetas modulares
+- Sombras Material Design
+- Efectos hover suaves
 
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with CSS Grid and Flexbox
-- **JavaScript** - Vanilla JS for interactivity
-- **Node.js** - Server-side runtime
-- **Express.js** - Web framework
+## 🌍 **Soporte Multi-idioma**
 
-## 📁 Project Structure
+### **Idiomas Disponibles**
+- 🇩🇪 **Alemán (DE)** - Idioma predeterminado
+- 🇺🇸 **Inglés (EN)** - English
+- 🇪🇸 **Español (ES)** - Español
 
+### **Funcionalidades**
+- Cambio dinámico de idioma
+- Contenido adaptado culturalmente
+- URLs limpias sin parámetros
+- Detección automática del idioma del navegador
+
+## 👩‍🏫 **Perfil Profesional**
+
+### **Stephanny Pulido**
+- **Educadora Internacional & Investigadora**
+- **Especialización:** Inglés y Español
+- **Experiencia:** USA, Colombia, Alemania
+- **Trabajo actual:** Freelancer en Berlín
+
+### **Credenciales Académicas**
+- **MA:** Master's Degree in Teaching English as a Foreign Language
+- **BA:** Bachelor's Degree in Education (English & Spanish)
+
+### **Habilidades Principales**
+- Curriculum Design
+- Intercultural Education
+- Language Assessment
+- AI Literacy
+- Digital Technology Integration
+
+## 🎯 **Servicios Ofrecidos**
+
+### **Cursos de Español**
+- Online para privados
+- In-House para empresas
+- Preparación DELE & SIELE
+- Programas personalizados
+
+### **Cursos de Inglés**
+- Online para privados
+- In-House para empresas
+- Preparación TOEFL & IELTS
+- Business English
+
+## 📱 **Contacto Directo**
+
+### **Información de Contacto**
+- **Email:** kolibrisprachschule@gmail.com
+- **WhatsApp:** +49 1522 6997 488
+- **Ubicación:** Berlín, Alemania
+- **Horarios:** Lun-Vie: 9AM-6PM
+
+### **Enlaces Directos**
+- Botones WhatsApp con mensajes pre-llenados
+- Enlaces de email directos
+- Formularios de contacto integrados
+
+## 🛠️ **Tecnologías Utilizadas**
+
+### **Frontend**
+- **HTML5:** Estructura semántica
+- **CSS3:** Diseño responsive y moderno
+- **JavaScript:** Funcionalidad dinámica
+- **Google Fonts:** Montserrat & Lato
+
+### **Características Técnicas**
+- **Responsive Design:** Mobile-first approach
+- **Progressive Enhancement:** Funciona sin JavaScript
+- **Accessibility:** Estándares WCAG
+- **Performance:** Optimizado para velocidad
+
+## 🚀 **Despliegue**
+
+### **GitHub Pages**
+- Hosting estático gratuito
+- Dominio personalizado disponible
+- Actualizaciones automáticas
+- SSL incluido
+
+### **Estructura del Proyecto**
 ```
 web_lg/
-├── public/
-│   ├── images/
-│   │   └── logo.png
-│   ├── js/
-│   │   ├── config.js
-│   │   ├── translations.js
-│   │   └── main.js
-│   └── index.html
-├── server.js
-├── package.json
-└── README.md
+├── index.html          # Página principal
+├── js/
+│   ├── config.js       # Configuración global
+│   ├── translations.js # Traducciones
+│   └── main.js         # Lógica principal
+├── images/
+│   └── logo.png        # Logo de la empresa
+└── README.md           # Documentación
 ```
 
-## 🚀 Getting Started
+## 📈 **Próximas Mejoras**
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+### **Funcionalidades Planificadas**
+- [ ] Blog integrado
+- [ ] Sistema de reservas online
+- [ ] Testimonios de clientes
+- [ ] Galería de fotos
+- [ ] Integración con redes sociales
 
-### Installation
+### **Optimizaciones Técnicas**
+- [ ] PWA (Progressive Web App)
+- [ ] SEO avanzado
+- [ ] Analytics integrado
+- [ ] Cache optimizado
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/kolibrisprachschule/web.git
-cd web
-```
+## 🤝 **Contribución**
 
-2. **Install dependencies**
-```bash
-npm install
-```
+Este proyecto está diseñado específicamente para Kolibri Sprachschule. Para contribuciones o consultas, contactar directamente con Stephanny Pulido.
 
-3. **Start the development server**
-```bash
-npm start
-```
+## 📄 **Licencia**
 
-4. **For development with auto-reload**
-```bash
-npm run dev
-```
-
-5. **Open your browser**
-Navigate to `http://localhost:3000`
-
-## 🎯 Services Offered
-
-- **Spanish Courses** - In-house training for companies and online lessons for individuals
-- **English Courses** - Business English and general language courses
-- **Homework Help** - Professional support for students
-
-## 📞 Contact Information
-
-- **Email**: kolibrisprachschule@gmail.com
-- **WhatsApp**: +49 1522 6997 488
-- **Location**: Berlin, Germany
-- **Business Hours**: Mon-Fri: 9AM-6PM
-
-## 🌟 Key Features
-
-### Business Solutions
-- In-house training for companies
-- Tailored programs for business objectives
-- Flexible scheduling
-- Professional language solutions
-
-### Individual Lessons
-- Online lessons for private clients
-- Personalized learning programs
-- Exam preparation
-- Homework support
-
-## 🎨 Design Features
-
-- **Modern Header** - Clean white design with prominent logo
-- **Responsive Grid** - Adaptive layout for all screen sizes
-- **Professional Color Scheme** - Blue tones for business appeal
-- **Smooth Animations** - Subtle hover effects and transitions
-- **Multi-language Switcher** - Easy language selection
-
-## 📱 Mobile Responsive
-
-The website is fully responsive and optimized for:
-- Desktop computers
-- Tablets
-- Mobile phones
-- All modern browsers
-
-## 🔧 Development
-
-### Available Scripts
-
-- `npm start` - Start the production server
-- `npm run dev` - Start development server with auto-reload
-- `npm test` - Run tests (if configured)
-
-### File Structure
-
-- `public/index.html` - Main HTML file with all content
-- `public/js/config.js` - Configuration settings
-- `public/js/translations.js` - Multi-language content
-- `public/js/main.js` - Core JavaScript functionality
-- `public/images/` - Images and assets
-
-## 📄 License
-
-This project is private and proprietary to Kolibri Sprachschule.
-
-## 🤝 Contributing
-
-This is a private project for Kolibri Sprachschule. For inquiries about the website or language services, please contact:
-
-- **Email**: kolibrisprachschule@gmail.com
-- **WhatsApp**: +49 1522 6997 488
+Proyecto privado para uso exclusivo de Kolibri Sprachschule.
 
 ---
 
-**Kolibri Sprachschule** - Professional language solutions in Berlin 🇩🇪 
+**Desarrollado con ❤️ para Kolibri Sprachschule** 
