@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeLanguageSwitcher();
     initializeSmoothScrolling();
     initializeAnimations();
+    initializeAnalytics();
     
     // Establecer idioma predeterminado (Alemán) sin parámetros de URL
     setDefaultLanguage('de');
@@ -205,6 +206,57 @@ function getServiceInfo(serviceId, lang = 'de') {
     return services[serviceId]?.[lang] || services[serviceId]?.de;
 }
 
+// Inicializar Analytics y tracking de eventos
+function initializeAnalytics() {
+    // Tracking de clicks en botones de WhatsApp
+    const whatsappButtons = document.querySelectorAll('a[href*="wa.me"]');
+    whatsappButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const service = this.closest('.service-card')?.querySelector('.service-title')?.textContent || 'general';
+            gtag('event', 'click', {
+                'event_category': 'contact',
+                'event_label': 'whatsapp_' + service.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase(),
+                'value': 1
+            });
+        });
+    });
+    
+    // Tracking de cambios de idioma
+    const languageButtons = document.querySelectorAll('.language-btn');
+    languageButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const lang = this.getAttribute('data-lang');
+            gtag('event', 'language_change', {
+                'event_category': 'engagement',
+                'event_label': 'language_' + lang,
+                'value': 1
+            });
+        });
+    });
+    
+    // Tracking de scroll en secciones
+    const sections = document.querySelectorAll('section');
+    const observerOptions = {
+        threshold: 0.5,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const sectionName = entry.target.className.split('-')[0];
+                gtag('event', 'section_view', {
+                    'event_category': 'engagement',
+                    'event_label': 'section_' + sectionName,
+                    'value': 1
+                });
+            }
+        });
+    }, observerOptions);
+    
+    sections.forEach(section => sectionObserver.observe(section));
+}
+
 // Exportar funciones para uso global
 window.KolibriLanguageServices = {
     changeLanguage: function(lang) {
@@ -215,5 +267,6 @@ window.KolibriLanguageServices = {
     handleContactForm,
     handleBooking,
     getServiceInfo,
-    detectBrowserLanguage
+    detectBrowserLanguage,
+    initializeAnalytics
 }; 
