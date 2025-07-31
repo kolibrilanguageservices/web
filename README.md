@@ -1,154 +1,148 @@
-# Kolibri Lessons - Stephanny Pulido
+# Kolibri Sprachschule Website
 
-Página web profesional para servicios bilingües de enseñanza (Español e Inglés) en Alemania. Sitio web multiidioma (Español, Inglés, Alemán) para Stephanny Julieth Pulido Nuñez, profesora freelancer bilingüe.
+Professional website for Kolibri Sprachschule - Spanish and English language courses in Berlin for businesses and individuals.
 
-## 🌟 Características
+## 🌍 Multi-language Support
 
-- ✅ **Multiidioma**: Soporte completo en Español, Inglés y Alemán
-- ✅ **Servicios Bilingües**: Clases de Español e Inglés como segunda lengua
-- ✅ **Diseño profesional**: Interfaz moderna y atractiva
-- ✅ **Responsive**: Optimizado para móviles y tablets
-- ✅ **Secciones completas**: Perfil, servicios, ventajas y contacto
-- ✅ **Información personalizada**: Datos reales de Stephanny
+- **German (DE)** - Default language
+- **English (EN)** 
+- **Spanish (ES)**
 
-## 📋 Secciones Incluidas
+## 🚀 Features
 
-1. **Perfil Profesional**: Información personal y experiencia bilingüe
-2. **Servicios Principales**:
-   - **Clases de Español** 🇪🇸
-   - **Clases de Inglés** 🇺🇸 (ESL/EFL)
-   - **Ayuda de Tareas** (Español e Inglés)
-   - **Revisión de Textos** (Español e Inglés)
-3. **Ventajas**: Por qué elegir Kolibri Lessons
-4. **Contacto**: Información de contacto completa
+- **Responsive Design** - Works on all devices
+- **Modern UI** - Clean, professional design
+- **Business Focus** - Tailored for corporate clients
+- **Direct Contact** - WhatsApp integration
+- **SEO Optimized** - Search engine friendly
 
-## 🚀 Instalación
+## 🛠️ Technologies Used
 
-1. **Verificar versión de Node.js:**
-   ```bash
-   node --version
-   ```
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with CSS Grid and Flexbox
+- **JavaScript** - Vanilla JS for interactivity
+- **Node.js** - Server-side runtime
+- **Express.js** - Web framework
 
-2. **Instalar dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Ejecutar el servidor:**
-   ```bash
-   npm start
-   ```
-
-4. **Para desarrollo (con auto-reload):**
-   ```bash
-   npm run dev
-   ```
-
-5. **Abrir en el navegador:**
-   ```
-   http://localhost:3000
-   ```
-
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
-kolibri-lessons/
-├── server.js          # Servidor Express
-├── package.json       # Configuración del proyecto
+web_lg/
 ├── public/
-│   ├── index.html    # Página principal multiidioma
-│   └── js/
-│       ├── config.js          # Configuración general
-│       ├── translations.js    # Traducciones bilingües
-│       └── main.js           # Funcionalidad principal
-├── LANGUAGES.md      # Documentación de idiomas
-└── README.md         # Documentación del proyecto
+│   ├── images/
+│   │   └── logo.png
+│   ├── js/
+│   │   ├── config.js
+│   │   ├── translations.js
+│   │   └── main.js
+│   └── index.html
+├── server.js
+├── package.json
+└── README.md
 ```
 
-## 🌍 Idiomas Soportados
+## 🚀 Getting Started
 
-- **Español (ES)**: Idioma principal
-- **Inglés (EN)**: Para clientes internacionales
-- **Alemán (DE)**: Para el mercado alemán
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-## 📚 Servicios de Enseñanza
+### Installation
 
-### 🇪🇸 Clases de Español
-- **Niveles**: Principiante, Intermedio, Avanzado
-- **Certificaciones**: DELE, SIELE
-- **Enfoque**: Conversacional y académico
-- **Material**: Personalizado según necesidades
+1. **Clone the repository**
+```bash
+git clone https://github.com/kolibrisprachschule/web.git
+cd web
+```
 
-### 🇺🇸 Clases de Inglés (ESL/EFL)
-- **Niveles**: Beginner, Intermediate, Advanced
-- **Certificaciones**: TOEFL, IELTS, Cambridge
-- **Enfoque**: English as a Second Language
-- **Material**: Adaptado al nivel del estudiante
+2. **Install dependencies**
+```bash
+npm install
+```
 
-### ✏️ Ayuda de Tareas
-- **Idiomas**: Español e Inglés
-- **Servicios**: Explicación paso a paso, corrección, preparación de exámenes
-- **Disponibilidad**: Horarios flexibles
+3. **Start the development server**
+```bash
+npm start
+```
 
-### 📝 Revisión de Textos
-- **Idiomas**: Español e Inglés
-- **Tipos**: Académicos, ensayos, documentos profesionales
-- **Servicios**: Corrección gramatical, mejora de estilo, formato
+4. **For development with auto-reload**
+```bash
+npm run dev
+```
 
-## 📞 Información de Contacto
+5. **Open your browser**
+Navigate to `http://localhost:3000`
 
-- **Nombre**: Stephanny Julieth Pulido Nuñez
-- **Email**: stephanny.pulido.n@gmail.com
+## 🎯 Services Offered
+
+- **Spanish Courses** - In-house training for companies and online lessons for individuals
+- **English Courses** - Business English and general language courses
+- **Homework Help** - Professional support for students
+
+## 📞 Contact Information
+
+- **Email**: kolibrisprachschule@gmail.com
 - **WhatsApp**: +49 1522 6997 488
-- **Ubicación**: Alemania
-- **Horarios**: Lun-Vie: 9AM-8PM
+- **Location**: Berlin, Germany
+- **Business Hours**: Mon-Fri: 9AM-6PM
 
-## 🎨 Características del Diseño
+## 🌟 Key Features
 
-- Gradientes modernos y atractivos
-- Animaciones suaves y transiciones
-- Iconografía clara y profesional
-- Paleta de colores consistente
-- Tipografía legible y elegante
+### Business Solutions
+- In-house training for companies
+- Tailored programs for business objectives
+- Flexible scheduling
+- Professional language solutions
 
-## 🔧 Tecnologías Utilizadas
+### Individual Lessons
+- Online lessons for private clients
+- Personalized learning programs
+- Exam preparation
+- Homework support
 
-- **Backend**: Node.js, Express.js
-- **Frontend**: HTML5, CSS3, JavaScript vanilla
-- **Características**: Multiidioma, Responsive, Modern UI
+## 🎨 Design Features
 
-## 📈 Próximos Pasos Sugeridos
+- **Modern Header** - Clean white design with prominent logo
+- **Responsive Grid** - Adaptive layout for all screen sizes
+- **Professional Color Scheme** - Blue tones for business appeal
+- **Smooth Animations** - Subtle hover effects and transitions
+- **Multi-language Switcher** - Easy language selection
 
-1. **Agregar formulario de contacto** funcional
-2. **Implementar sistema de reservas** online
-3. **Agregar galería de testimonios** de clientes
-4. **Crear blog** con recursos bilingües
-5. **Integrar calendario** de disponibilidad
-6. **Agregar certificaciones** y credenciales
-7. **Sección de precios** detallada
-8. **Sistema de niveles** de idioma
+## 📱 Mobile Responsive
 
-## 🦋 Sobre el Nombre "Kolibri"
+The website is fully responsive and optimized for:
+- Desktop computers
+- Tablets
+- Mobile phones
+- All modern browsers
 
-El nombre "Kolibri" (colibrí en alemán) representa:
-- **Agilidad**: Clases adaptadas y flexibles
-- **Precisión**: Enfoque personalizado en cada estudiante
-- **Belleza**: Enseñanza elegante y efectiva
-- **Internacional**: Conexión entre culturas y idiomas
+## 🔧 Development
 
-## 🌍 Mercado Objetivo
+### Available Scripts
 
-### Alemania
-- **Estudiantes de español**: Inmigrantes, estudiantes universitarios
-- **Estudiantes de inglés**: Profesionales, estudiantes de negocios
-- **Preparación de exámenes**: TOEFL, IELTS, DELE, SIELE
+- `npm start` - Start the production server
+- `npm run dev` - Start development server with auto-reload
+- `npm test` - Run tests (if configured)
 
-### Internacional
-- **Clientes online**: Clases virtuales
-- **Empresas**: Cursos corporativos de idiomas
-- **Instituciones educativas**: Colaboraciones
+### File Structure
+
+- `public/index.html` - Main HTML file with all content
+- `public/js/config.js` - Configuration settings
+- `public/js/translations.js` - Multi-language content
+- `public/js/main.js` - Core JavaScript functionality
+- `public/images/` - Images and assets
+
+## 📄 License
+
+This project is private and proprietary to Kolibri Sprachschule.
+
+## 🤝 Contributing
+
+This is a private project for Kolibri Sprachschule. For inquiries about the website or language services, please contact:
+
+- **Email**: kolibrisprachschule@gmail.com
+- **WhatsApp**: +49 1522 6997 488
 
 ---
 
-**Desarrollado para Stephanny Julieth Pulido Nuñez**  
-*Profesora Bilingüe Freelancer en Alemania* 
+**Kolibri Sprachschule** - Professional language solutions in Berlin 🇩🇪 
